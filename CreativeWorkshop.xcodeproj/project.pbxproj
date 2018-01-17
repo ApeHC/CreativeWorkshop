@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0F293E200EFB770016D44B /* CWHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F293D200EFB770016D44B /* CWHTTPRequest.m */; };
+		3E0F2941200EFBC00016D44B /* CWInterfacedConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F2940200EFBC00016D44B /* CWInterfacedConst.m */; };
+		3E5216901FCEB5F400C78B15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E52168F1FCEB5F400C78B15 /* AppDelegate.m */; };
+		3E5216981FCEB5F400C78B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5216971FCEB5F400C78B15 /* Assets.xcassets */; };
+		3E52169E1FCEB5F400C78B15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E52169D1FCEB5F400C78B15 /* main.m */; };
+		3E5216A91FCEB94000C78B15 /* CWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5216A81FCEB94000C78B15 /* CWBaseViewController.m */; };
+		3E5216AF1FCF99F500C78B15 /* WaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5216AD1FCF99F500C78B15 /* WaveViewController.m */; };
+		3E5216B41FCFA26000C78B15 /* TagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5216B21FCFA26000C78B15 /* TagsViewController.m */; };
+		3E5216B81FCFA60F00C78B15 /* ToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5216B71FCFA60F00C78B15 /* ToolsViewController.m */; };
+		3E5216BA1FCFAA8600C78B15 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5216B91FCFAA8600C78B15 /* Launch Screen.storyboard */; };
+		3E5216BE1FCFAF5E00C78B15 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5216BC1FCFAF5E00C78B15 /* PickerViewController.m */; };
+		3E5216C31FCFAFA400C78B15 /* CWPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5216C21FCFAFA400C78B15 /* CWPickerView.m */; };
+		3E5216C61FCFE48300C78B15 /* CWSelectPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5216C51FCFE48300C78B15 /* CWSelectPicker.m */; };
+		3E75F6ED1FF099F400759ABA /* CWTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E75F6EC1FF099F400759ABA /* CWTagsView.m */; };
+		3E75F6F11FF0A15300759ABA /* CWTagsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E75F6EF1FF0A15300759ABA /* CWTagsViewCell.m */; };
+		3E75F6FB1FF0A9FB00759ABA /* CWTagsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E75F6FA1FF0A9FB00759ABA /* CWTagsLayout.m */; };
+		3E75F6FE1FF37A2600759ABA /* CWCellFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E75F6FD1FF37A2600759ABA /* CWCellFlowLayout.m */; };
+		3E75F7041FFB6CC400759ABA /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75F7031FFB6CC300759ABA /* delete.png */; };
+		3E75F709200300AE00759ABA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E75F708200300AE00759ABA /* MainViewController.m */; };
+		3E75F70F2003039B00759ABA /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E75F70E2003039B00759ABA /* LiveViewController.m */; };
+		3E75F712200303AA00759ABA /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E75F711200303AA00759ABA /* OtherViewController.m */; };
+		3E75F71920031A6B00759ABA /* HCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E75F71820031A6B00759ABA /* HCNetworking.m */; };
+		3E75F71C2007699B00759ABA /* CWWaveAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E75F71B2007699B00759ABA /* CWWaveAnimationView.m */; };
+		AEC487DB93AAA6FA4040E8F8 /* libPods-CreativeWorkshop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEBC2B05A3213BA61315A7D /* libPods-CreativeWorkshop.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E0F293C200EFB770016D44B /* CWHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWHTTPRequest.h; sourceTree = "<group>"; };
+		3E0F293D200EFB770016D44B /* CWHTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWHTTPRequest.m; sourceTree = "<group>"; };
+		3E0F293F200EFBC00016D44B /* CWInterfacedConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWInterfacedConst.h; sourceTree = "<group>"; };
+		3E0F2940200EFBC00016D44B /* CWInterfacedConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWInterfacedConst.m; sourceTree = "<group>"; };
+		3E52168B1FCEB5F400C78B15 /* CreativeWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreativeWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E52168E1FCEB5F400C78B15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E52168F1FCEB5F400C78B15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E5216971FCEB5F400C78B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E52169C1FCEB5F400C78B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E52169D1FCEB5F400C78B15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E5216A71FCEB94000C78B15 /* CWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWBaseViewController.h; sourceTree = "<group>"; };
+		3E5216A81FCEB94000C78B15 /* CWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWBaseViewController.m; sourceTree = "<group>"; };
+		3E5216AA1FCEB97F00C78B15 /* CreativeWorkshop.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreativeWorkshop.pch; sourceTree = "<group>"; };
+		3E5216AB1FCEB99E00C78B15 /* CreativeWorkshop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreativeWorkshop.h; sourceTree = "<group>"; };
+		3E5216AC1FCF99F500C78B15 /* WaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveViewController.h; sourceTree = "<group>"; };
+		3E5216AD1FCF99F500C78B15 /* WaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveViewController.m; sourceTree = "<group>"; };
+		3E5216B11FCFA26000C78B15 /* TagsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagsViewController.h; sourceTree = "<group>"; };
+		3E5216B21FCFA26000C78B15 /* TagsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsViewController.m; sourceTree = "<group>"; };
+		3E5216B61FCFA60F00C78B15 /* ToolsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsViewController.h; sourceTree = "<group>"; };
+		3E5216B71FCFA60F00C78B15 /* ToolsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsViewController.m; sourceTree = "<group>"; };
+		3E5216B91FCFAA8600C78B15 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3E5216BB1FCFAF5E00C78B15 /* PickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		3E5216BC1FCFAF5E00C78B15 /* PickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		3E5216C11FCFAFA400C78B15 /* CWPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWPickerView.h; sourceTree = "<group>"; };
+		3E5216C21FCFAFA400C78B15 /* CWPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWPickerView.m; sourceTree = "<group>"; };
+		3E5216C41FCFE48300C78B15 /* CWSelectPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWSelectPicker.h; sourceTree = "<group>"; };
+		3E5216C51FCFE48300C78B15 /* CWSelectPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWSelectPicker.m; sourceTree = "<group>"; };
+		3E75F6EB1FF099F400759ABA /* CWTagsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWTagsView.h; sourceTree = "<group>"; };
+		3E75F6EC1FF099F400759ABA /* CWTagsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWTagsView.m; sourceTree = "<group>"; };
+		3E75F6EE1FF0A15300759ABA /* CWTagsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWTagsViewCell.h; sourceTree = "<group>"; };
+		3E75F6EF1FF0A15300759ABA /* CWTagsViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWTagsViewCell.m; sourceTree = "<group>"; };
+		3E75F6F91FF0A9FB00759ABA /* CWTagsLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWTagsLayout.h; sourceTree = "<group>"; };
+		3E75F6FA1FF0A9FB00759ABA /* CWTagsLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWTagsLayout.m; sourceTree = "<group>"; };
+		3E75F6FC1FF37A2600759ABA /* CWCellFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWCellFlowLayout.h; sourceTree = "<group>"; };
+		3E75F6FD1FF37A2600759ABA /* CWCellFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWCellFlowLayout.m; sourceTree = "<group>"; };
+		3E75F7031FFB6CC300759ABA /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		3E75F707200300AE00759ABA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3E75F708200300AE00759ABA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3E75F70D2003039B00759ABA /* LiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		3E75F70E2003039B00759ABA /* LiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		3E75F710200303AA00759ABA /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		3E75F711200303AA00759ABA /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		3E75F71720031A6B00759ABA /* HCNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNetworking.h; sourceTree = "<group>"; };
+		3E75F71820031A6B00759ABA /* HCNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNetworking.m; sourceTree = "<group>"; };
+		3E75F71A2007699B00759ABA /* CWWaveAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWWaveAnimationView.h; sourceTree = "<group>"; };
+		3E75F71B2007699B00759ABA /* CWWaveAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWWaveAnimationView.m; sourceTree = "<group>"; };
+		7F01FE2FD8652A6CCCD45BF7 /* Pods-CreativeWorkshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreativeWorkshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreativeWorkshop/Pods-CreativeWorkshop.debug.xcconfig"; sourceTree = "<group>"; };
+		888A284703ABB8DDD53414BA /* Pods-CreativeWorkshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreativeWorkshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreativeWorkshop/Pods-CreativeWorkshop.release.xcconfig"; sourceTree = "<group>"; };
+		EEEBC2B05A3213BA61315A7D /* libPods-CreativeWorkshop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreativeWorkshop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E5216881FCEB5F400C78B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC487DB93AAA6FA4040E8F8 /* libPods-CreativeWorkshop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E5216821FCEB5F400C78B15 = {
+			isa = PBXGroup;
+			children = (
+				3E52168D1FCEB5F400C78B15 /* CreativeWorkshop */,
+				3E52168C1FCEB5F400C78B15 /* Products */,
+				60581A36D463EA7C06D65746 /* Pods */,
+				74BE6177E2147EA1BB51B6C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E52168C1FCEB5F400C78B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E52168B1FCEB5F400C78B15 /* CreativeWorkshop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E52168D1FCEB5F400C78B15 /* CreativeWorkshop */ = {
+			isa = PBXGroup;
+			children = (
+				3E5216A41FCEB85A00C78B15 /* Tools */,
+				3E5216A51FCEB8AE00C78B15 /* Controller */,
+				3E52168E1FCEB5F400C78B15 /* AppDelegate.h */,
+				3E52168F1FCEB5F400C78B15 /* AppDelegate.m */,
+				3E75F707200300AE00759ABA /* MainViewController.h */,
+				3E75F708200300AE00759ABA /* MainViewController.m */,
+				3E5216971FCEB5F400C78B15 /* Assets.xcassets */,
+				3E5216B91FCFAA8600C78B15 /* Launch Screen.storyboard */,
+				3E52169C1FCEB5F400C78B15 /* Info.plist */,
+				3E52169D1FCEB5F400C78B15 /* main.m */,
+				3E5216AA1FCEB97F00C78B15 /* CreativeWorkshop.pch */,
+				3E5216AB1FCEB99E00C78B15 /* CreativeWorkshop.h */,
+			);
+			path = CreativeWorkshop;
+			sourceTree = "<group>";
+		};
+		3E5216A41FCEB85A00C78B15 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3E75F71620031A6B00759ABA /* Networking */,
+				3E75F7051FFE217C00759ABA /* WaveView */,
+				3E75F6EA1FECF22C00759ABA /* TagsView */,
+				3E5216C01FCFAF7900C78B15 /* CWPicker */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3E5216A51FCEB8AE00C78B15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E5216A61FCEB91000C78B15 /* BaseController */,
+				3E75F70A2003010600759ABA /* ToolsViewController */,
+				3E75F70B2003035200759ABA /* LiveViewController */,
+				3E75F70C2003036400759ABA /* OtherViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E5216A61FCEB91000C78B15 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				3E5216A71FCEB94000C78B15 /* CWBaseViewController.h */,
+				3E5216A81FCEB94000C78B15 /* CWBaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		3E5216C01FCFAF7900C78B15 /* CWPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3E5216C11FCFAFA400C78B15 /* CWPickerView.h */,
+				3E5216C21FCFAFA400C78B15 /* CWPickerView.m */,
+				3E5216C41FCFE48300C78B15 /* CWSelectPicker.h */,
+				3E5216C51FCFE48300C78B15 /* CWSelectPicker.m */,
+			);
+			path = CWPicker;
+			sourceTree = "<group>";
+		};
+		3E75F6EA1FECF22C00759ABA /* TagsView */ = {
+			isa = PBXGroup;
+			children = (
+				3E75F6EB1FF099F400759ABA /* CWTagsView.h */,
+				3E75F6EC1FF099F400759ABA /* CWTagsView.m */,
+				3E75F6EE1FF0A15300759ABA /* CWTagsViewCell.h */,
+				3E75F6EF1FF0A15300759ABA /* CWTagsViewCell.m */,
+				3E75F6FC1FF37A2600759ABA /* CWCellFlowLayout.h */,
+				3E75F6FD1FF37A2600759ABA /* CWCellFlowLayout.m */,
+				3E75F6F91FF0A9FB00759ABA /* CWTagsLayout.h */,
+				3E75F6FA1FF0A9FB00759ABA /* CWTagsLayout.m */,
+				3E75F7031FFB6CC300759ABA /* delete.png */,
+			);
+			path = TagsView;
+			sourceTree = "<group>";
+		};
+		3E75F7051FFE217C00759ABA /* WaveView */ = {
+			isa = PBXGroup;
+			children = (
+				3E75F71A2007699B00759ABA /* CWWaveAnimationView.h */,
+				3E75F71B2007699B00759ABA /* CWWaveAnimationView.m */,
+			);
+			path = WaveView;
+			sourceTree = "<group>";
+		};
+		3E75F70A2003010600759ABA /* ToolsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3E5216B61FCFA60F00C78B15 /* ToolsViewController.h */,
+				3E5216B71FCFA60F00C78B15 /* ToolsViewController.m */,
+				3E5216AC1FCF99F500C78B15 /* WaveViewController.h */,
+				3E5216AD1FCF99F500C78B15 /* WaveViewController.m */,
+				3E5216B11FCFA26000C78B15 /* TagsViewController.h */,
+				3E5216B21FCFA26000C78B15 /* TagsViewController.m */,
+				3E5216BB1FCFAF5E00C78B15 /* PickerViewController.h */,
+				3E5216BC1FCFAF5E00C78B15 /* PickerViewController.m */,
+			);
+			path = ToolsViewController;
+			sourceTree = "<group>";
+		};
+		3E75F70B2003035200759ABA /* LiveViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3E75F70D2003039B00759ABA /* LiveViewController.h */,
+				3E75F70E2003039B00759ABA /* LiveViewController.m */,
+			);
+			path = LiveViewController;
+			sourceTree = "<group>";
+		};
+		3E75F70C2003036400759ABA /* OtherViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3E75F710200303AA00759ABA /* OtherViewController.h */,
+				3E75F711200303AA00759ABA /* OtherViewController.m */,
+			);
+			path = OtherViewController;
+			sourceTree = "<group>";
+		};
+		3E75F71620031A6B00759ABA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3E75F71720031A6B00759ABA /* HCNetworking.h */,
+				3E75F71820031A6B00759ABA /* HCNetworking.m */,
+				3E0F293F200EFBC00016D44B /* CWInterfacedConst.h */,
+				3E0F2940200EFBC00016D44B /* CWInterfacedConst.m */,
+				3E0F293C200EFB770016D44B /* CWHTTPRequest.h */,
+				3E0F293D200EFB770016D44B /* CWHTTPRequest.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		60581A36D463EA7C06D65746 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F01FE2FD8652A6CCCD45BF7 /* Pods-CreativeWorkshop.debug.xcconfig */,
+				888A284703ABB8DDD53414BA /* Pods-CreativeWorkshop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74BE6177E2147EA1BB51B6C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEEBC2B05A3213BA61315A7D /* libPods-CreativeWorkshop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E52168A1FCEB5F400C78B15 /* CreativeWorkshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E5216A11FCEB5F400C78B15 /* Build configuration list for PBXNativeTarget "CreativeWorkshop" */;
+			buildPhases = (
+				9CFE32426C74FA744630446B /* [CP] Check Pods Manifest.lock */,
+				3E5216871FCEB5F400C78B15 /* Sources */,
+				3E5216881FCEB5F400C78B15 /* Frameworks */,
+				3E5216891FCEB5F400C78B15 /* Resources */,
+				C5DAD1C2E4A83551DD503ADF /* [CP] Embed Pods Frameworks */,
+				FEDF2E3E1918C43B1C936695 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreativeWorkshop;
+			productName = CreativeWorkshop;
+			productReference = 3E52168B1FCEB5F400C78B15 /* CreativeWorkshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E5216831FCEB5F400C78B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = HeChuang;
+				TargetAttributes = {
+					3E52168A1FCEB5F400C78B15 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3E5216861FCEB5F400C78B15 /* Build configuration list for PBXProject "CreativeWorkshop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E5216821FCEB5F400C78B15;
+			productRefGroup = 3E52168C1FCEB5F400C78B15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E52168A1FCEB5F400C78B15 /* CreativeWorkshop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E5216891FCEB5F400C78B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5216BA1FCFAA8600C78B15 /* Launch Screen.storyboard in Resources */,
+				3E75F7041FFB6CC400759ABA /* delete.png in Resources */,
+				3E5216981FCEB5F400C78B15 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CFE32426C74FA744630446B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5DAD1C2E4A83551DD503ADF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CreativeWorkshop/Pods-CreativeWorkshop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEDF2E3E1918C43B1C936695 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CreativeWorkshop/Pods-CreativeWorkshop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E5216871FCEB5F400C78B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E75F6FB1FF0A9FB00759ABA /* CWTagsLayout.m in Sources */,
+				3E5216A91FCEB94000C78B15 /* CWBaseViewController.m in Sources */,
+				3E0F293E200EFB770016D44B /* CWHTTPRequest.m in Sources */,
+				3E5216C61FCFE48300C78B15 /* CWSelectPicker.m in Sources */,
+				3E0F2941200EFBC00016D44B /* CWInterfacedConst.m in Sources */,
+				3E75F712200303AA00759ABA /* OtherViewController.m in Sources */,
+				3E75F709200300AE00759ABA /* MainViewController.m in Sources */,
+				3E52169E1FCEB5F400C78B15 /* main.m in Sources */,
+				3E75F71C2007699B00759ABA /* CWWaveAnimationView.m in Sources */,
+				3E5216BE1FCFAF5E00C78B15 /* PickerViewController.m in Sources */,
+				3E5216AF1FCF99F500C78B15 /* WaveViewController.m in Sources */,
+				3E75F71920031A6B00759ABA /* HCNetworking.m in Sources */,
+				3E5216B81FCFA60F00C78B15 /* ToolsViewController.m in Sources */,
+				3E75F70F2003039B00759ABA /* LiveViewController.m in Sources */,
+				3E5216C31FCFAFA400C78B15 /* CWPickerView.m in Sources */,
+				3E75F6F11FF0A15300759ABA /* CWTagsViewCell.m in Sources */,
+				3E5216901FCEB5F400C78B15 /* AppDelegate.m in Sources */,
+				3E75F6FE1FF37A2600759ABA /* CWCellFlowLayout.m in Sources */,
+				3E5216B41FCFA26000C78B15 /* TagsViewController.m in Sources */,
+				3E75F6ED1FF099F400759ABA /* CWTagsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E52169F1FCEB5F400C78B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E5216A01FCEB5F400C78B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E5216A21FCEB5F400C78B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F01FE2FD8652A6CCCD45BF7 /* Pods-CreativeWorkshop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H52H4WA4K4;
+				GCC_PREFIX_HEADER = CreativeWorkshop/CreativeWorkshop.pch;
+				INFOPLIST_FILE = CreativeWorkshop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HeChuang.CreativeWorkshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3E5216A31FCEB5F400C78B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888A284703ABB8DDD53414BA /* Pods-CreativeWorkshop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H52H4WA4K4;
+				GCC_PREFIX_HEADER = CreativeWorkshop/CreativeWorkshop.pch;
+				INFOPLIST_FILE = CreativeWorkshop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HeChuang.CreativeWorkshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E5216861FCEB5F400C78B15 /* Build configuration list for PBXProject "CreativeWorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E52169F1FCEB5F400C78B15 /* Debug */,
+				3E5216A01FCEB5F400C78B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E5216A11FCEB5F400C78B15 /* Build configuration list for PBXNativeTarget "CreativeWorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E5216A21FCEB5F400C78B15 /* Debug */,
+				3E5216A31FCEB5F400C78B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E5216831FCEB5F400C78B15 /* Project object */;
+}
