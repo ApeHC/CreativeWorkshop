@@ -97,6 +97,145 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E0F2942200F26F70016D44B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E0F2943200F27080016D44B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E0F2944200F2A590016D44B /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				3E5216A41FCEB85A00C78B15 /* Tools */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		3E0F2945200F2AEA0016D44B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E5216B61FCFA60F00C78B15 /* ToolsViewController.h */,
+				3E5216B71FCFA60F00C78B15 /* ToolsViewController.m */,
+				3E5216AC1FCF99F500C78B15 /* WaveViewController.h */,
+				3E5216AD1FCF99F500C78B15 /* WaveViewController.m */,
+				3E5216B11FCFA26000C78B15 /* TagsViewController.h */,
+				3E5216B21FCFA26000C78B15 /* TagsViewController.m */,
+				3E5216BB1FCFAF5E00C78B15 /* PickerViewController.h */,
+				3E5216BC1FCFAF5E00C78B15 /* PickerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E0F2946200F2B0F0016D44B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E75F70D2003039B00759ABA /* LiveViewController.h */,
+				3E75F70E2003039B00759ABA /* LiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E0F2947200F2B1D0016D44B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E0F2948200F2B240016D44B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E0F2949200F2B370016D44B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E0F294A200F2B420016D44B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E75F710200303AA00759ABA /* OtherViewController.h */,
+				3E75F711200303AA00759ABA /* OtherViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E0F294B200F2B510016D44B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E0F294C200F2BC30016D44B /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		3E0F294D200F2BDE0016D44B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3E0F294F200F2C8A0016D44B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3E5216A61FCEB91000C78B15 /* BaseController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3E0F2950200F2C910016D44B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3E0F293F200EFBC00016D44B /* CWInterfacedConst.h */,
+				3E0F2940200EFBC00016D44B /* CWInterfacedConst.m */,
+				3E0F293C200EFB770016D44B /* CWHTTPRequest.h */,
+				3E0F293D200EFB770016D44B /* CWHTTPRequest.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3E0F2951200F2CFC0016D44B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				3E5216B91FCFAA8600C78B15 /* Launch Screen.storyboard */,
+				3E52169C1FCEB5F400C78B15 /* Info.plist */,
+				3E52169D1FCEB5F400C78B15 /* main.m */,
+				3E5216AA1FCEB97F00C78B15 /* CreativeWorkshop.pch */,
+				3E5216AB1FCEB99E00C78B15 /* CreativeWorkshop.h */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		3E0F2953200F2DA00016D44B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3E52168E1FCEB5F400C78B15 /* AppDelegate.h */,
+				3E52168F1FCEB5F400C78B15 /* AppDelegate.m */,
+				3E75F707200300AE00759ABA /* MainViewController.h */,
+				3E75F708200300AE00759ABA /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		3E5216821FCEB5F400C78B15 = {
 			isa = PBXGroup;
 			children = (
@@ -118,18 +257,15 @@
 		3E52168D1FCEB5F400C78B15 /* CreativeWorkshop */ = {
 			isa = PBXGroup;
 			children = (
-				3E5216A41FCEB85A00C78B15 /* Tools */,
-				3E5216A51FCEB8AE00C78B15 /* Controller */,
-				3E52168E1FCEB5F400C78B15 /* AppDelegate.h */,
-				3E52168F1FCEB5F400C78B15 /* AppDelegate.m */,
-				3E75F707200300AE00759ABA /* MainViewController.h */,
-				3E75F708200300AE00759ABA /* MainViewController.m */,
+				3E0F2944200F2A590016D44B /* Expand */,
+				3E5216A51FCEB8AE00C78B15 /* Modules */,
+				3E0F2953200F2DA00016D44B /* Main */,
+				3E0F294F200F2C8A0016D44B /* Base */,
+				3E0F294C200F2BC30016D44B /* Vender */,
+				3E0F2950200F2C910016D44B /* API */,
+				3E0F2951200F2CFC0016D44B /* Support */,
 				3E5216971FCEB5F400C78B15 /* Assets.xcassets */,
-				3E5216B91FCFAA8600C78B15 /* Launch Screen.storyboard */,
-				3E52169C1FCEB5F400C78B15 /* Info.plist */,
-				3E52169D1FCEB5F400C78B15 /* main.m */,
-				3E5216AA1FCEB97F00C78B15 /* CreativeWorkshop.pch */,
-				3E5216AB1FCEB99E00C78B15 /* CreativeWorkshop.h */,
+				3E0F294D200F2BDE0016D44B /* Resource */,
 			);
 			path = CreativeWorkshop;
 			sourceTree = "<group>";
@@ -137,7 +273,7 @@
 		3E5216A41FCEB85A00C78B15 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				3E75F71620031A6B00759ABA /* Networking */,
+				3E75F71620031A6B00759ABA /* HCNetworking */,
 				3E75F7051FFE217C00759ABA /* WaveView */,
 				3E75F6EA1FECF22C00759ABA /* TagsView */,
 				3E5216C01FCFAF7900C78B15 /* CWPicker */,
@@ -145,15 +281,14 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		3E5216A51FCEB8AE00C78B15 /* Controller */ = {
+		3E5216A51FCEB8AE00C78B15 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				3E5216A61FCEB91000C78B15 /* BaseController */,
-				3E75F70A2003010600759ABA /* ToolsViewController */,
-				3E75F70B2003035200759ABA /* LiveViewController */,
-				3E75F70C2003036400759ABA /* OtherViewController */,
+				3E75F70A2003010600759ABA /* Tools */,
+				3E75F70B2003035200759ABA /* Live */,
+				3E75F70C2003036400759ABA /* Other */,
 			);
-			path = Controller;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		3E5216A61FCEB91000C78B15 /* BaseController */ = {
@@ -201,50 +336,43 @@
 			path = WaveView;
 			sourceTree = "<group>";
 		};
-		3E75F70A2003010600759ABA /* ToolsViewController */ = {
+		3E75F70A2003010600759ABA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				3E5216B61FCFA60F00C78B15 /* ToolsViewController.h */,
-				3E5216B71FCFA60F00C78B15 /* ToolsViewController.m */,
-				3E5216AC1FCF99F500C78B15 /* WaveViewController.h */,
-				3E5216AD1FCF99F500C78B15 /* WaveViewController.m */,
-				3E5216B11FCFA26000C78B15 /* TagsViewController.h */,
-				3E5216B21FCFA26000C78B15 /* TagsViewController.m */,
-				3E5216BB1FCFAF5E00C78B15 /* PickerViewController.h */,
-				3E5216BC1FCFAF5E00C78B15 /* PickerViewController.m */,
+				3E0F2942200F26F70016D44B /* Model */,
+				3E0F2943200F27080016D44B /* View */,
+				3E0F2945200F2AEA0016D44B /* Controller */,
 			);
-			path = ToolsViewController;
+			path = Tools;
 			sourceTree = "<group>";
 		};
-		3E75F70B2003035200759ABA /* LiveViewController */ = {
+		3E75F70B2003035200759ABA /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				3E75F70D2003039B00759ABA /* LiveViewController.h */,
-				3E75F70E2003039B00759ABA /* LiveViewController.m */,
+				3E0F2948200F2B240016D44B /* Model */,
+				3E0F2947200F2B1D0016D44B /* View */,
+				3E0F2946200F2B0F0016D44B /* Controller */,
 			);
-			path = LiveViewController;
+			path = Live;
 			sourceTree = "<group>";
 		};
-		3E75F70C2003036400759ABA /* OtherViewController */ = {
+		3E75F70C2003036400759ABA /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				3E75F710200303AA00759ABA /* OtherViewController.h */,
-				3E75F711200303AA00759ABA /* OtherViewController.m */,
+				3E0F2949200F2B370016D44B /* Model */,
+				3E0F294B200F2B510016D44B /* View */,
+				3E0F294A200F2B420016D44B /* Controller */,
 			);
-			path = OtherViewController;
+			path = Other;
 			sourceTree = "<group>";
 		};
-		3E75F71620031A6B00759ABA /* Networking */ = {
+		3E75F71620031A6B00759ABA /* HCNetworking */ = {
 			isa = PBXGroup;
 			children = (
 				3E75F71720031A6B00759ABA /* HCNetworking.h */,
 				3E75F71820031A6B00759ABA /* HCNetworking.m */,
-				3E0F293F200EFBC00016D44B /* CWInterfacedConst.h */,
-				3E0F2940200EFBC00016D44B /* CWInterfacedConst.m */,
-				3E0F293C200EFB770016D44B /* CWHTTPRequest.h */,
-				3E0F293D200EFB770016D44B /* CWHTTPRequest.m */,
 			);
-			path = Networking;
+			path = HCNetworking;
 			sourceTree = "<group>";
 		};
 		60581A36D463EA7C06D65746 /* Pods */ = {
@@ -523,8 +651,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H52H4WA4K4;
-				GCC_PREFIX_HEADER = CreativeWorkshop/CreativeWorkshop.pch;
-				INFOPLIST_FILE = CreativeWorkshop/Info.plist;
+				GCC_PREFIX_HEADER = CreativeWorkshop/Support/CreativeWorkshop.pch;
+				INFOPLIST_FILE = CreativeWorkshop/Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HeChuang.CreativeWorkshop;
@@ -540,8 +668,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H52H4WA4K4;
-				GCC_PREFIX_HEADER = CreativeWorkshop/CreativeWorkshop.pch;
-				INFOPLIST_FILE = CreativeWorkshop/Info.plist;
+				GCC_PREFIX_HEADER = CreativeWorkshop/Support/CreativeWorkshop.pch;
+				INFOPLIST_FILE = CreativeWorkshop/Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HeChuang.CreativeWorkshop;
